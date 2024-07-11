@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>FORM</title>
+</head>
+
+<body>
+  <form method="post" action="file.js" name="form" id="form">  
+        <div>
+            <label for="fname">Name</label> <br>
+            <input type="text" name="fname" id="fname" value="jay" size="10" placeholder="enter your name" required>
+        </div>
+        <div>
+            <label for="evename">Name of the event:</label> <br>
+            <input type="text" name="evename" id="evename" value="Js fest" readonly disabled>
+        </div>
+        <div>
+            <label for="age">Age:</label> <br>
+            <input type="number" name="age" min="18" max="30" id="age" required>   
+        </div>
+        <div>
+            <label for="email">Email:</label> <br>
+            <input type="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" name="email" id="email">   
+        </div>
+        <div>
+            <label for="password">Create a password:</label> <br>
+            <input type="password">   
+        </div>
+        <div>
+            <label for="phoneno">Contact no.</label> <br>
+            <input type="tel" pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$">   
+        </div>
+        <div>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" value="male" name="gender"> Male <br>
+            <input type="radio" value="female" name="gender"> Female <br>
+        </div>
+        <div>
+            <label for="skills">Your Skills:</label><br>
+           HTML: <input type="checkbox" name="skills" value="HTML">
+           CSS: <input type="checkbox"name="skills" value="CSS">
+           JS: <input type="checkbox"name="skills" value="JS">
+        </div>
+        <div>
+            <label for="time">Preffered time for meetup:</label><br>
+            <input type="date" min="2023-04-02" max="2023-05-05">
+        </div>
+        <div>
+            <label for="topics">Choose topic for the meetup:</label><br>
+            <select name="TOPICS">
+                <option value="HTML-Tags">HTML TAGS</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVA SCRIPT">JS</option>
+            </select>
+        </div>
+        <div>
+            <label for="msg">Any questions?</label>
+            <textarea name="msg" id="msg" cols="30" rows="2"></textarea>
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset" disabled>
+        </div>
+
+        <div>
+            <label for="extra-input">Extra input types</label>
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="month"><br>
+            <input type="week"><br>
+            <input type="file"><br>
+            <input type="image" src="../assets/web.jpg" width="100px" height="100px"><br>
+            <input type="url"><br>
+            <input type="range"><br>
+            <input type="search"><br>
+            <input type="button"><br>
+            <button>Submit</button>
+        </div>
+        
+
+
+
+    </form>
+</body>
+</html>
