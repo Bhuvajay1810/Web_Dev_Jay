@@ -1,0 +1,37 @@
+/*Universal selector(*) selects all the elements in your document*/
+*{
+    color: red;
+}
+/*Tag selector: selects all the elements with the given tag */
+
+h1{
+    color: green;
+}
+
+
+p{
+    color: blue;
+}
+
+/*Class selector(.class_name): select all the elements with the given class name
+It is used to group elements and provide the same styling */
+.para{
+    color: pink;
+}
+
+/*Id selector(#id_name): selects the element with the given id
+Id is always unique, no two elements can have same id value*/
+#para-1{
+    color: aqua;
+}
+
+/*Grouping selector(,): used to group different selectors*/
+.title , .sub-title{
+    color: blueviolet;
+}
+
+/*Element.class selector: selects the specified element with the specified class*/
+span.para{
+    color: red;
+}
+
