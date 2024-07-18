@@ -1,0 +1,38 @@
+/*!Important : 10000 */
+*{
+    color: purple!Important;
+    font-size: 10px;
+}
+
+/*Id selector : 100*/
+#h1 {
+    color: maroon;
+    font-size: 20px;
+}
+
+/*Universal selector : 0 */
+*{
+    color: pink;
+}
+
+:link{
+    color: red;
+}
+
+[href="#"]{
+    color: blue;
+}
+
+/*Tag and pseudo-element selector : 1 */
+h1{
+    color: blueviolet;
+}
+
+::marker{
+    color: blue;
+}
+
+/*pseudo-class and attribute selector : 10 */
+.heading{
+    color: coral;
+}
